@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid19-by-gender</title>
+</head>
+<body>
+    <h1>Covid19-by-gender</h1>
+    <br>
+    <h4>Cette page vous montre les dernières données hospitalières à propos du covid 19 par genre. Les données sont mises à jour quotidiennement par Santé Publique France.</h4>
+    <h5>Cliquez sur l'un des boutons suivants pour faire apparaître le graphique.</h5>
+    <input type="button" id="hospi" value="Hospitalisations">
+    <input type="button" id="rea" value="Réanimations">
+    <input type="button" id="rad" value="Retours à domicile">
+    <input type="button" id="dc" value="Décès">
+    <br>
+    <canvas id="myChart" height="180">Désolé, mais votre navigateur n'est pas suffisament récent pour afficher le graphique</canvas>
+    <br>  
+    <p>Créé le 1er mai 2020 par <a href="https://github.com/bertrandfournel">Bertrand Fournel</a></p> 
+    <p>Source : <a href="https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19">Santé Publique France</a></p>
+    
+    
+</body>
+</html>
